@@ -157,7 +157,7 @@ main {
 
 .flex-item {
     border: 4px solid var(--purple);
-    display: inline-flex;
+    display: flex;
     justify-content: left;
     min-height: 150px;
     max-height: 150px;
@@ -172,14 +172,20 @@ main {
     color: var(--black);
 }
 
+
+
+
+
+
 .flex-item:first-child{
-    min-height: 400px;
+    min-height: 200px;
     flex-basis: 100%;
 }
 
 
 .flex-item:hover {
     background-color: var(--purple);
+    
 }
 
 .contact address {
