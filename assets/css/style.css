@@ -178,6 +178,33 @@ main {
 }
 
 
+img {
+    position: relative;
+    width: 400px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 20em;
+    height: 10em;
+    
+}
+
+.positioned-image {
+    position: relative;
+}
+
+.image1 {
+    top: 50px;
+    left: 50px;
+    position: relative;
+}
+
+
+.image2 {
+    bottom: 50px;
+    right: 50px;
+}
+
 
 
 .flex-item:first-child{
