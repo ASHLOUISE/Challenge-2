@@ -112,6 +112,11 @@ main {
     flex: 0 0 90%;
 }
 
+.hero img {
+    width: 70px;
+    height: auto;
+}
+
 .page-wrapper {
     max-width: 88%;
     margin-left: auto;
@@ -175,12 +180,17 @@ main {
 
 
 
-
-
 .flex-item:first-child{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #d9d9e0;
+    border: 3px solid var(--purple);
+    width: 20em;
+    height: 10em;
     min-height: 200px;
     flex-basis: 100%;
 }
+
 
 
 .flex-item:hover {
